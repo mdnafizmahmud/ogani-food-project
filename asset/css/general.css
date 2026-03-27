@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* besic class */
+.d-flex {
+  display: flex;
+}
+
+.align-item {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.justify-content-space {
+  justify-content: space-between;
+}
+
+.padding-left-right-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
