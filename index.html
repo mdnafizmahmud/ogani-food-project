@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ogani Food</title>
 
+    <!-- Font Family link Roboto & Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS link -->
     <link rel="stylesheet" href="asset/css/style.css" />
     <link rel="stylesheet" href="asset/css/general.css" />
@@ -21,8 +29,12 @@
       <div class="header-top padding-left-right-12">
         <div class="col-top-1 d-flex align-item justify-content-space">
           <div class="logo">
-            <a href="./index.html">
-              <img src="asset/img/logo.png" alt="Ogani Food Logo" />
+            <a href="./index.html" aria-label="Go to homepage">
+              <img
+                src="asset/img/logo.png"
+                alt="Ogani Food Logo"
+                loading="lazy"
+              />
             </a>
           </div>
           <div class="menu">
@@ -48,5 +60,30 @@
         </div>
       </div>
     </header>
+
+    <section class="hero">
+      <div class="container padding-left-right-12">
+        <div
+          class="hero-categories d-flex align-item padding-left-right-16 padding-top-bottom-8 justify-content-flex-start"
+        >
+          <i class="bi bi-list"></i>
+          <span>All departments</span>
+          <i class="bi bi-chevron-down"></i>
+        </div>
+        <ul class="categories-list border-left-right-bottom">
+          <li>Fresh Meat</li>
+          <li>Vegetable</li>
+          <li>Fruit & Nut Gifts</li>
+          <li>Fresh Berries</li>
+          <li>Ocean Foods</li>
+          <li>Butter & Eggs</li>
+          <li>Fostfood</li>
+          <li>Fresh Onion</li>
+          <li>Papaya & Crisps</li>
+          <li>Oatmeal</li>
+          <li>Fresh Bananas</li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>
