@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 body {
@@ -32,6 +32,21 @@ a:visited {
 
 ul {
   list-style: none;
+}
+
+.hero-banner {
+  background-image: url(/asset/img/hero/banner.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 .d-flex {
@@ -72,9 +87,18 @@ ul {
   padding-right: 16px;
 }
 
+.padding-top-bottom-6 {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
 .padding-top-bottom-8 {
   padding-bottom: 8px;
   padding-top: 8px;
+}
+
+.padding-top-bottom-10 {
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .border-left-right-bottom {
