@@ -252,5 +252,145 @@
 }
 
 /* ///////////////////////// */
-/* PRODUCTS CATEGORIES */
+/* CATEGORIES */
 /* ///////////////////////// */
+
+.categories {
+}
+.categories-container {
+}
+.carousel {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.carousel-col-1 {
+  background-image: url(/asset/img/categories/cat-1.jpg);
+}
+.carousel-col-2 {
+  background-image: url(/asset/img/categories/cat-2.jpg);
+}
+.carousel-col-3 {
+  background-image: url(/asset/img/categories/cat-3.jpg);
+}
+.carousel-col-4 {
+  background-image: url(/asset/img/categories/cat-4.jpg);
+}
+.carousel-col-5 {
+  background-image: url(/asset/img/categories/cat-5.jpg);
+}
+
+.carousel-col-1,
+.carousel-col-2,
+.carousel-col-3,
+.carousel-col-4,
+.carousel-col-5 {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 270px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-col-1 h5,
+.carousel-col-2 h5,
+.carousel-col-3 h5,
+.carousel-col-4 h5,
+.carousel-col-5 h5 {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-col-1 a,
+.carousel-col-2 a,
+.carousel-col-3 a,
+.carousel-col-4 a,
+.carousel-col-5 a {
+  color: #1c1c1c;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(--color-white);
+  padding: 5px 0;
+  display: inline-block;
+  width: 90%;
+}
+
+.carousel-button {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.carousel-button button {
+  width: 35px;
+  height: 40px;
+  background: transparent;
+  border: var(--border-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-col-2,
+.carousel-col-3,
+.carousel-col-4,
+.carousel-col-5 {
+  display: none;
+}
+
+/* ///////////////////////// */
+/* FEATURED */
+/* ///////////////////////// */
+
+.featured {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.featured-container {
+}
+
+.featured-text {
+}
+
+.featured-title h3 {
+  position: relative;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+  color: #1c1c1c;
+  font-weight: 800;
+}
+
+.featured-title h3::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: var(--color-ligh-green);
+  text-align: center;
+
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+}
+
+.feature-filter {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
