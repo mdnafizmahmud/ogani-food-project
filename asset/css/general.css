@@ -11,8 +11,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -85,6 +85,11 @@ ul {
 .padding-left-right-16 {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.padding-left-right-14 {
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .padding-top-bottom-6 {
