@@ -363,7 +363,8 @@
 .featured-text {
 }
 
-.featured-title h3 {
+.featured-title h3,
+.blog-title h3 {
   position: relative;
   font-size: 36px;
   text-align: center;
@@ -373,7 +374,8 @@
   font-weight: 800;
 }
 
-.featured-title h3::after {
+.featured-title h3::after,
+.blog-title h3::after {
   position: absolute;
   content: "";
   width: 80px;
@@ -553,17 +555,148 @@
 /* LATEST PRODUCTS */
 /* ///////////////////////// */
 
-.latest-product {
+.highligh-product {
+  padding-top: 80px;
 }
 
-.latest-product .container {
+.highligh-product .container {
 }
 
-.latest-product {
+.latest-product,
+.top-rated,
+.review-product {
+  position: relative;
 }
 
+.latest-product,
+.top-rated {
+  margin-bottom: 40px;
+}
+
+.latest-product h3,
+.top-rated h3,
+.review-product h3 {
+  font-size: 24px;
+  color: #1c1c1c;
+  font-weight: 800;
+  margin: 0 0 30px 0;
+  line-height: 30px;
+}
+
+.product-data {
+  display: flex;
+  color: var(--color-black);
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.product-data:last-child {
+  margin-bottom: 0;
+}
+
+.product-data div:first-child {
+  height: 110px;
+  width: 110px;
+  margin-right: 30px;
+}
+
+.product-data img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.product-data div:last-child {
+  display: flex;
+  /* flex: 1; */
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.product-data div:last-child p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 8px 0 8px 0;
+  display: block;
+}
+
+.product-data div:last-child span {
+  font-size: 1.125rem;
+  display: block;
+  font-weight: 900;
+}
+
+.product-slider-btn {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.product-slider-btn button {
+  border: var(--border-color);
+  background: #f3f6fa;
+  width: 30px;
+  height: 25px;
+}
 .top-rated {
 }
 
 .review-product {
+}
+
+/* ///////////////////////// */
+/* BLOG */
+/* ///////////////////////// */
+
+.blog {
+}
+
+.container {
+}
+
+.blog-title h3 {
+  margin-bottom: 70px;
+}
+
+.blog-item {
+  margin-bottom: 30px;
+}
+
+.blog-picture {
+  width: 100%;
+}
+
+.blog-picture img {
+  display: block;
+  width: 100%;
+}
+
+.blog-item-text ul {
+  display: flex;
+  padding: 0;
+  margin: 10px 0 15px 0;
+}
+.blog-item-text ul li {
+  color: var(--color-light-gray);
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.blog-item-text h5 {
+  font-size: 20px;
+  color: #1c1c1c;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 12px;
+  line-height: 24px;
+}
+
+.blog-item-text p {
+  font-size: 1rem;
+  color: var(--color-gray);
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 0 15px 0;
 }
