@@ -5,6 +5,7 @@
   --color-white: #ffffff;
   --color-light-gray: #b2b2b2;
   --icon-background: #f5f5f5;
+  --color-ligh-white: #f3f6fa;
 
   --border-color: 1px solid #ebebeb;
 }
@@ -18,8 +19,11 @@
 }
 
 .logo a:link,
-.logo a:visited {
+.logo a:visited,
+.footer-img-logo a:link,
+.footer-img-logo a:visited {
   display: inline-block;
+  line-height: 10px;
 }
 
 .logo img {
@@ -699,4 +703,157 @@
   font-weight: 400;
   line-height: 26px;
   margin: 0 0 15px 0;
+}
+
+/* ///////////////////////// */
+/* FOOTER */
+/* ///////////////////////// */
+
+.footer {
+  padding-top: 70px;
+  background: var(--color-ligh-white);
+}
+
+.footer-img-logo {
+  margin-bottom: 15px;
+}
+
+.another-link ul,
+.details {
+  padding: 0;
+  margin: 0;
+}
+
+.details li {
+  font-size: 1rem;
+  color: #1c1c1c;
+  line-height: 36px;
+}
+
+.contact,
+.another-link {
+  margin-bottom: 30px;
+}
+
+.another-link h4,
+.social h4 {
+  color: #1c1c1c;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.another-link ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.another-link ul li a {
+  line-height: 32px;
+}
+
+.social p,
+.another-link ul li a {
+  color: #1c1c1c;
+  font-size: 14px;
+}
+
+.social {
+  padding-bottom: 30px;
+}
+
+.social p {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.subscribtion {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribtion input {
+  height: 42px;
+  border: var(--border-color);
+  font-size: 1rem;
+  padding-left: 20px;
+  outline: none;
+  width: 100%;
+}
+
+.subscribtion button {
+  height: 44px;
+  display: inline-block;
+  background: var(--color-ligh-green);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Cairo", sans-serif;
+  padding: 0 24px;
+  border: none;
+}
+
+.social-link {
+  display: flex;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  margin-right: 15px;
+}
+
+.facebook a:link,
+.facebook a:visited,
+.instagram a:link,
+.instagram a:visited,
+.twitter a:link,
+.twitter a:visited,
+.youtube a:link,
+.youtube a:visited {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: var(--border-color);
+  border-radius: 100%;
+  background: var(--color-white);
+}
+
+.facebook svg,
+.instagram svg,
+.twitter svg,
+.youtube svg {
+  width: 20px;
+  height: 20px;
+  fill: #6f6f6f;
+}
+
+.copy-right-text {
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  color: var(--color-gray);
+  text-align: center;
+}
+
+.copy-right-text i {
+  color: rgb(255, 70, 70);
+}
+
+.copy-right-text a {
+  font-size: 18px;
+  color: var(--color-black);
+  font-weight: 500;
+}
+.payment-img {
+  width: 100%;
+  text-align: center;
+}
+
+.payment-img img {
+  max-width: 100%;
 }
