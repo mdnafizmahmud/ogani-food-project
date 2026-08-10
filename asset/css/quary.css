@@ -21,6 +21,10 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .container1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   .categories-container {
     padding-left: 2rem;
@@ -113,6 +117,10 @@
   }
 
   .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .container1 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
@@ -294,6 +302,11 @@
     padding-right: 1.5rem;
   }
 
+  .container1 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .categories-container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -303,5 +316,156 @@
   .banner-container,
   .featured-container {
     padding: 0 1.5rem;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    height: 80px;
+    max-width: 960px;
+    padding: 0 30px;
+  }
+
+  .col-top-middle {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+
+  .nav {
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-list li {
+    margin-right: 45px;
+  }
+
+  .nav-list li a:link,
+  .nav-list li a:visited {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Cairo", sans-serif;
+    padding: 5px 0;
+    color: #252525;
+    transition: all 0.3s;
+    letter-spacing: 2px;
+  }
+
+  .nav-list li a:hover,
+  .nav-list li a:active {
+    color: #7fad39;
+  }
+
+  .col-top-1 {
+    padding-right: 10px;
+  }
+  .col-top-1,
+  .col-top-2 {
+    width: 200px;
+  }
+
+  .col-top-2 {
+    justify-content: right;
+  }
+
+  .hero-categories {
+    width: 165px;
+    padding: 10px 25px 10px 20px;
+  }
+
+  .hero-categories .bi-list {
+    margin-left: 0;
+    height: 1rem;
+  }
+
+  .container {
+    max-width: 960px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-self: center;
+    padding: 0 30px;
+    margin-bottom: 2rem;
+  }
+  .contacts {
+    margin: 0;
+    height: 50px;
+  }
+
+  .hero-categories span {
+    /* margin-right: 10px; */
+    font-size: 1rem;
+  }
+
+  .bi-chevron-down {
+    margin-right: 0;
+  }
+
+  .col-banner {
+    width: 678px;
+    margin-left: auto;
+    margin-left: 40px;
+  }
+
+  .col-category {
+    /* margin-right: 40px; */
+  }
+
+  .search-ber {
+    margin-bottom: 1.5rem;
+  }
+
+  .categories-list {
+    display: block;
+    padding-left: 30px;
+  }
+
+  .categories-list li:first-child {
+    padding-top: 0.5rem;
+  }
+
+  .categories-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .carousel-button {
+    width: 98%;
+  }
+  .carousel-button button {
+    height: 60px;
+  }
+  .carousel {
+    overflow-x: hidden;
+  }
+
+  .featured-filter {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .address {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .social {
+    grid-column: 3 / -1;
+  }
+  .footer-copy-right {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .payment-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
